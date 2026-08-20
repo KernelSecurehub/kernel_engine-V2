@@ -40,8 +40,7 @@ Unlike basic scanners, **KERNEL Engine** executes a full-spectrum security asses
 
 ```bash
 # 1. Clone the repository
-git clone [https://github.com/your-username/kernel-engine.git](https://github.com/your-username/kernel-engine.git)
-
+git clone https://github.com/KernelSecurehub/kernel_engineV2.git
 # 2. Navigate to the project directory
 cd kernel-engine
 
