@@ -49,3 +49,30 @@ pip install -r requirements.txt
 
 # 4. Grant execution permissions (Linux/macOS)
 chmod +x kernel_engine.py
+
+# 5. how to use
+
+python3 kernel_engine.py -t target.com
+
+---
+
+
+  _  ________ _____  _  ________ _       ______ _   _  _____ _____ _          ______ 
+ | |/ /  ____|  __ \| |/ /  ____| |     |  ____| \ | |/ ____|_   _| \ | |  ____|  ____|
+ | ' /| |__  | |__) | ' /| |__  | |     | |__  |  \| | |  __  | | |  \| | |__  | |__   
+ |  < |  __| |  _  /|  < |  __| | |     |  __| | . ` | | |_ | | | | . ` |  __| |  __|  
+ | . \| |____| | \ \| . \| |____| |____ | |____| |\  | |__| |_| |_| |\  | |____| |____ 
+ |_|\_\______|_|  \_\_|\_\______|______||______|_| \_|\_____|_____|_| \_|______|______|
+
+ [🚀] LAUNCHING FULL AUTOMATED SCAN FOR: target.com
+
+[+] IP Resolved: 93.184.216.34
+[*] Enumerating Subdomains via SSL Transparency logs...
+[+] Found 4 Subdomains
+[*] Scanning Critical Network Ports...
+[+] Port Open: 80
+[+] Port Open: 443
+[*] Auditing Web Headers & Sensitive Files...
+[!] EXPOSED FILE FOUND: /.env
+
+[✔] FULL HTML REPORT GENERATED: KERNEL_Report_target.com.html
